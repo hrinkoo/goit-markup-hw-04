@@ -271,6 +271,9 @@ p {
 .worker-container {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
+  width: 100%;
 }
 
 /* Section-заголовки: "Наші особливості, Чим ми займаємось, Наша команда*/
@@ -320,6 +323,8 @@ p {
 .worker-list .caption-text {
   line-height: 1.19;
   text-align: center;
+
+  margin-bottom: 16px;
 }
 
 /* Постійні клієнти */
@@ -407,7 +412,7 @@ p {
   margin-bottom: 20px;
 }
 
-.foot-socials {
+.box-socials {
   padding-top: 72px;
   padding-bottom: 100px;
   width: 206px;
@@ -422,7 +427,10 @@ p {
 .socials li {
   width: 44px;
   height: 44px;
+
   background-color: orange;
+
+  text-decoration: none;
 }
 
 /* Button для порфолио*/
