@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --primary-bgr-color: #ffffff;
   --primary-button-bgr-color: #f5f4fa;
+  --link-color: #afb1b8;
 }
 
 body {
@@ -56,6 +57,9 @@ p {
   margin: -1px;
 }
 
+svg {
+  display: block;
+}
 /* page-header */
 
 .page-header {
@@ -128,7 +132,7 @@ p {
 }
 
 .links-contact > .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .links-contact .contact {
@@ -138,11 +142,24 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
 }
 
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
+}
+
+.contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.contact-icon:hover {
+  fill: var(--accent-color);
 }
 
 /* Hero */
@@ -214,6 +231,10 @@ p {
   /* background-color: teal; */
 }
 
+.features-picture {
+  fill: currentColor;
+}
+
 .list-box > .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
@@ -231,6 +252,11 @@ p {
 
   margin-bottom: 30px;
   border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--title-text-color);
 }
 
 /* Чим ми займаємось */
@@ -421,6 +447,34 @@ p {
   margin-bottom: 20px;
 }
 
+.link-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-attention {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+
+  color: var(--link-color);
+}
+
+.socials-attention:hover,
+.socials-attention:focus {
+  color: var(--primary-bgr-color);
+  background-color: var(--accent-color);
+}
+
+.footer-attention {
+  background-color: #ffffff1a;
+}
+
 .box-socials {
   padding-top: 72px;
   padding-bottom: 100px;
@@ -429,15 +483,12 @@ p {
 
 .socials {
   display: flex;
-  outline: 2px solid tomato;
   justify-content: space-between;
 }
 
 .socials li {
   width: 44px;
   height: 44px;
-
-  background-color: orange;
 
   text-decoration: none;
 }
