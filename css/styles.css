@@ -185,8 +185,20 @@ p {
 }
 
 .hero-section {
+  max-width: 1600px;
+  height: 600px;
+
   background-color: #2f303a;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -335,6 +347,12 @@ p {
 
 .footer-section {
   background-color: #2f303a;
+
+  max-width: 1600px;
+  height: 252px;
+
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -396,6 +414,11 @@ p {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+
+.benefits-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .benefits-item:nth-child(3n) {
