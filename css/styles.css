@@ -322,6 +322,30 @@ p {
   text-align: center;
 }
 
+/* Постійні клієнти */
+
+.client {
+  display: flex;
+
+  gap: 30px;
+}
+
+.client-box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
 /* footer */
 
 .address-links .address-place {
