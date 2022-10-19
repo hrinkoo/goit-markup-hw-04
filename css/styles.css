@@ -373,12 +373,9 @@ p {
   background-color: #2f303a;
 
   max-width: 1600px;
-  height: 252px;
 
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-section .logo {
@@ -388,6 +385,44 @@ p {
 
 .address-links > .address-items:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-section > .container {
+  display: flex;
+}
+
+.foot-box {
+  margin-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.subtitle-footer {
+  color: var(--secondary-text-color);
+
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.foot-socials {
+  padding-top: 72px;
+  padding-bottom: 100px;
+  width: 206px;
+}
+
+.socials {
+  display: flex;
+  outline: 2px solid tomato;
+  justify-content: space-between;
+}
+
+.socials li {
+  width: 44px;
+  height: 44px;
+  background-color: orange;
 }
 
 /* Button для порфолио*/
