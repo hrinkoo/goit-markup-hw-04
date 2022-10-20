@@ -384,7 +384,8 @@ svg {
   color: #afb1b8;
 }
 
-.client-box:hover {
+.client-box:hover,
+.client-box:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
