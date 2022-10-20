@@ -203,7 +203,6 @@ svg {
 
 .hero-section {
   max-width: 1600px;
-  height: 600px;
 
   background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -420,10 +419,8 @@ svg {
 .footer-section {
   background-color: #2f303a;
 
-  max-width: 1600px;
-
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-section .logo {
@@ -441,14 +438,13 @@ svg {
 
 .foot-box {
   margin-right: 70px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .subtitle-footer {
   color: var(--secondary-text-color);
 
   font-size: 14px;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -481,11 +477,10 @@ svg {
 
 .footer-attention {
   background-color: #ffffff1a;
+  color: var(--primary-bgr-color);
 }
 
 .box-socials {
-  padding-top: 72px;
-  padding-bottom: 100px;
   width: 206px;
 }
 
