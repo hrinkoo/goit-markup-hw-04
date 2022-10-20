@@ -380,6 +380,17 @@ svg {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  color: #afb1b8;
+}
+
+.client-box:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.client-picture {
+  fill: currentColor;
 }
 
 /* footer */
