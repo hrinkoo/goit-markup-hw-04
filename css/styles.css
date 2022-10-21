@@ -434,6 +434,7 @@ svg {
 
 .footer-section > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .foot-box {
